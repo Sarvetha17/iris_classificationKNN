@@ -8,7 +8,7 @@ df=pickle.load(pickle_in)
 
 def predict_status(sepal_length,sepal_width,petal_length,petal_width):
     pred=df.predict([[sepal_length,sepal_width,petal_length,petal_width]])
-return pred
+    return pred
 
 st.title("Iris flower classification")
 html_temp=  """"
